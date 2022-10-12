@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sougato's shortcut</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <style>
+      /* Modal Structure */
+
+      html,
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 384px;
+      }
+
+      h1 {
+        font-family: "Menlo", monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: red;
+      }
+
+      a:link,
+      a:visited {
+        color: yellow;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 30px;
+      }
+
+      .modal-header {
+        align-items: center;
+        border-bottom: 1px solid red;
+      }
+
+      .modal-content {
+        padding: 0 50px;
+        border-bottom: 0.5px solid blue;
+      }
+
+      .modal-icons {
+        
+        height: 50px;
+        width: 100%;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        padding-right: 12px; 
+      }
+
+      .version {
+        color: #444;
+        font-size: 18px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 22px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: orange;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <div class="modal-header">
+      <h1 class="logo">
+        <img class="logo-icon" src="images/sg-logo.jpg" />Sougato
+        Launcher
+        <span class="version">(1.0.0)</span>
+      </h1>
+    </div>
+    <div class="modal-content">
+      <p>Easily Access Sougato Media content</p>
+    </div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://www.quora.com/profile/Sougato-Ghosh-6" target="_blank">
+            <i class="fa fa-quora" style="color: #B32D1B  "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.youtube.com/channel/UCErd0qgQrOSb7z-QNxzVC5Q" target="_blank">
+            <i class="fa fa-youtube" style="color:red "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://twitter.com/SougatoGhosh10?s=08" target="_blank">
+            <i class="fa fa-twitter" style="color: #00acee "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.facebook.com/sougato.ghosh.520/" target="_blank">
+            <i class="fa fa-facebook" style="color: blue"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.linkedin.com/in/sougato-ghosh-835638187" target="_blank">
+            <i class="fa fa-linkedin" style="color: 0C5A64 "></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
